@@ -14,6 +14,7 @@
 		C6BFBE861CE2542000D7DF9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BFBE851CE2542000D7DF9C /* Images.xcassets */; };
 		C6BFBE891CE2542000D7DF9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BFBE871CE2542000D7DF9C /* LaunchScreen.xib */; };
 		C6BFBE951CE2542000D7DF9C /* nugtmpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BFBE941CE2542000D7DF9C /* nugtmpTests.swift */; };
+		C6BFBE9F1CE2565200D7DF9C /* One.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BFBE9E1CE2565200D7DF9C /* One.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C6BFBE8E1CE2542000D7DF9C /* nugtmpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nugtmpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BFBE931CE2542000D7DF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6BFBE941CE2542000D7DF9C /* nugtmpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nugtmpTests.swift; sourceTree = "<group>"; };
+		C6BFBE9E1CE2565200D7DF9C /* One.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = One.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		C6BFBE6E1CE2542000D7DF9C = {
 			isa = PBXGroup;
 			children = (
+				C6BFBE9E1CE2565200D7DF9C /* One.swift */,
 				C6BFBE791CE2542000D7DF9C /* nugtmp */,
 				C6BFBE911CE2542000D7DF9C /* nugtmpTests */,
 				C6BFBE781CE2542000D7DF9C /* Products */,
@@ -217,6 +220,7 @@
 			files = (
 				C6BFBE811CE2542000D7DF9C /* DetailViewController.swift in Sources */,
 				C6BFBE7F1CE2542000D7DF9C /* MasterViewController.swift in Sources */,
+				C6BFBE9F1CE2565200D7DF9C /* One.swift in Sources */,
 				C6BFBE7D1CE2542000D7DF9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = nugtmp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = nugtmp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
